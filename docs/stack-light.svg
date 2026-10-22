@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="498" viewBox="0 0 880 498" role="img" aria-label="Homelab stack: hardware, virtual machines, platform, apps">
+<rect width="880" height="498" rx="14" fill="#ffffff"/>
+<text x="28" y="82.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="1.4" fill="#656d76">APPS</text>
+<rect x="178" y="28" width="674" height="100" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="196" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#1f2328">Plex · Uptime Kuma · Homepage · Renovate</text>
+<text x="196" y="79" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#656d76">one folder per app · Argo CD syncs from git · images mirrored</text>
+<rect x="194" y="92" width="137" height="22" rx="11" fill="#ddf4ff"/>
+<text x="263" y="107" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#0969da">k3s-homelab-apps</text>
+<text x="28" y="196.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="1.4" fill="#656d76">PLATFORM</text>
+<rect x="178" y="142" width="439" height="100" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="196" y="172" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#1f2328">k3s · Argo CD · Forgejo · Authelia</text>
+<text x="196" y="193" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#656d76">Longhorn · External Secrets · VictoriaMetrics · Headlamp</text>
+<rect x="194" y="206" width="159" height="22" rx="11" fill="#ddf4ff"/>
+<text x="273" y="221" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#0969da">ansible-k3s-homelab</text>
+<rect x="629" y="142" width="223" height="100" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="647" y="172" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#1f2328">Vault</text>
+<text x="647" y="193" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#656d76">Raft · TLS · nightly snapshots</text>
+<rect x="645" y="206" width="152" height="22" rx="11" fill="#ddf4ff"/>
+<text x="721" y="221" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#0969da">ansible-vault-raft</text>
+<text x="28" y="310.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="1.4" fill="#656d76">VIRTUAL MACHINES</text>
+<rect x="178" y="256" width="439" height="100" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="196" y="286" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#1f2328">3 × k3s nodes</text>
+<text x="196" y="307" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#656d76">HA control plane · iGPU passthrough</text>
+<rect x="194" y="320" width="166" height="22" rx="11" fill="#ddf4ff"/>
+<text x="277" y="335" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#0969da">terraform-proxmox-vm</text>
+<rect x="629" y="256" width="223" height="100" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="647" y="286" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#1f2328">Vault VM</text>
+<text x="647" y="307" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#656d76">ZFS-replicated to every host</text>
+<rect x="645" y="320" width="166" height="22" rx="11" fill="#ddf4ff"/>
+<text x="728" y="335" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#0969da">terraform-proxmox-vm</text>
+<text x="28" y="424.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="1.4" fill="#656d76">HARDWARE</text>
+<rect x="178" y="370" width="674" height="100" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="196" y="400" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#1f2328">Proxmox VE 9 · 3 × Intel N100/N150 mini PCs</text>
+<text x="196" y="421" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#656d76">ZFS replication · NAS over NFS · OPNsense firewall · WireGuard VPN</text>
+<text x="196" y="450" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#656d76" opacity="0.8">Set up by hand. Everything above it is code.</text>
+</svg>
