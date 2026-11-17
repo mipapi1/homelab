@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="790" viewBox="0 0 960 790" role="img" aria-label="The k3s cluster: three nodes, the platform installed by Ansible, the apps Argo CD deploys, my projects, and storage">
+<title>The k3s cluster: three nodes, the platform installed by Ansible, the apps Argo CD deploys, my projects, and storage</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#656d76"/></marker></defs>
+<rect width="960" height="790" rx="14" fill="#ffffff"/>
+<text x="24" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#656d76" font-weight="600" letter-spacing="1.4">NODES</text>
+<text x="936" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" fill="#656d76" text-anchor="end">every node is a server (embedded etcd) and runs workloads</text>
+<rect x="24" y="48" width="297" height="74" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+<rect x="24" y="60" width="3" height="50" rx="1.5" fill="#1b7c83"/>
+<text x="40" y="71" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#1f2328" font-weight="600">k3s-prod01</text>
+<text x="40" y="89" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" fill="#656d76">VM on Proxmox host 1 · 4 vCPU · 10 GB</text>
+<text x="40" y="105" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" fill="#656d76">Intel iGPU passed through · Traefik</text>
+<rect x="331" y="48" width="297" height="74" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+<rect x="331" y="60" width="3" height="50" rx="1.5" fill="#1b7c83"/>
+<text x="347" y="71" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#1f2328" font-weight="600">k3s-prod02</text>
+<text x="347" y="89" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" fill="#656d76">VM on Proxmox host 2 · 4 vCPU · 10 GB</text>
+<text x="347" y="105" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" fill="#656d76">Intel iGPU passed through · Traefik</text>
+<rect x="639" y="48" width="297" height="74" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+<rect x="639" y="60" width="3" height="50" rx="1.5" fill="#1b7c83"/>
+<text x="655" y="71" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#1f2328" font-weight="600">k3s-prod03</text>
+<text x="655" y="89" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" fill="#656d76">VM on Proxmox host 3 · 4 vCPU · 10 GB</text>
+<text x="655" y="105" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" fill="#656d76">Intel iGPU passed through · Traefik</text>
+<text x="24" y="154" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#656d76" font-weight="600" letter-spacing="1.4">PLATFORM</text>
+<text x="936" y="154" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" fill="#656d76" text-anchor="end">installed by Ansible, so nothing depends on what it fixes</text>
+<rect x="24" y="166" width="220" height="58" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+<rect x="24" y="178" width="3" height="34" rx="1.5" fill="#0969da"/>
+<text x="40" y="189" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#1f2328" font-weight="600">Argo CD</text>
+<text x="40" y="207" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" fill="#656d76">syncs every app folder from git</text>
+<rect x="254" y="166" width="220" height="58" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+<rect x="254" y="178" width="3" height="34" rx="1.5" fill="#0969da"/>
+<text x="270" y="189" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#1f2328" font-weight="600">Forgejo</text>
+<text x="270" y="207" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" fill="#656d76">git, packages and CI; source of truth</text>
+<rect x="485" y="166" width="220" height="58" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+<rect x="485" y="178" width="3" height="34" rx="1.5" fill="#0969da"/>
+<text x="501" y="189" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#1f2328" font-weight="600">Authelia</text>
+<text x="501" y="207" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" fill="#656d76">one sign-in + 2FA, also for kubectl</text>
+<rect x="716" y="166" width="220" height="58" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+<rect x="716" y="178" width="3" height="34" rx="1.5" fill="#0969da"/>
+<text x="732" y="189" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#1f2328" font-weight="600">External Secrets</text>
+<text x="732" y="207" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" fill="#656d76">Vault secrets become k8s Secrets</text>
+<rect x="24" y="234" width="220" height="58" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+<rect x="24" y="246" width="3" height="34" rx="1.5" fill="#0969da"/>
+<text x="40" y="257" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#1f2328" font-weight="600">Longhorn</text>
+<text x="40" y="275" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" fill="#656d76">replicated volumes, nightly backups</text>
+<rect x="254" y="234" width="220" height="58" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+<rect x="254" y="246" width="3" height="34" rx="1.5" fill="#0969da"/>
+<text x="270" y="257" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#1f2328" font-weight="600">CloudNativePG</text>
+<text x="270" y="275" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" fill="#656d76">Postgres for Forgejo</text>
+<rect x="485" y="234" width="220" height="58" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+<rect x="485" y="246" width="3" height="34" rx="1.5" fill="#0969da"/>
+<text x="501" y="257" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#1f2328" font-weight="600">VictoriaMetrics</text>
+<text x="501" y="275" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" fill="#656d76">metrics, Grafana, alerts</text>
+<rect x="716" y="234" width="220" height="58" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+<rect x="716" y="246" width="3" height="34" rx="1.5" fill="#0969da"/>
+<text x="732" y="257" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#1f2328" font-weight="600">Headlamp</text>
+<text x="732" y="275" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" fill="#656d76">cluster UI, signs in with Authelia</text>
+<text x="24" y="324" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#656d76" font-weight="600" letter-spacing="1.4">APPS</text>
+<text x="936" y="324" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" fill="#656d76" text-anchor="end">one folder each in git, deployed by Argo CD</text>
+<rect x="24" y="336" width="220" height="58" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+<rect x="24" y="348" width="3" height="34" rx="1.5" fill="#1a7f37"/>
+<text x="40" y="359" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#1f2328" font-weight="600">Ente Photos</text>
+<text x="40" y="377" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" fill="#656d76">photo backup for family + friends</text>
+<rect x="254" y="336" width="220" height="58" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+<rect x="254" y="348" width="3" height="34" rx="1.5" fill="#1a7f37"/>
+<text x="270" y="359" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#1f2328" font-weight="600">Ente staging</text>
+<text x="270" y="377" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" fill="#656d76">copy of prod to test upgrades on</text>
+<rect x="485" y="336" width="220" height="58" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+<rect x="485" y="348" width="3" height="34" rx="1.5" fill="#1a7f37"/>
+<text x="501" y="359" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#1f2328" font-weight="600">ente-admin</text>
+<text x="501" y="377" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" fill="#656d76">admin portal I built for Ente</text>
+<rect x="716" y="336" width="220" height="58" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+<rect x="716" y="348" width="3" height="34" rx="1.5" fill="#1a7f37"/>
+<text x="732" y="359" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#1f2328" font-weight="600">ente-notify</text>
+<text x="732" y="377" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" fill="#656d76">the emails Ente doesn&#x27;t send</text>
+<rect x="24" y="404" width="220" height="58" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+<rect x="24" y="416" width="3" height="34" rx="1.5" fill="#1a7f37"/>
+<text x="40" y="427" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#1f2328" font-weight="600">Plex</text>
+<text x="40" y="445" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" fill="#656d76">iGPU transcoding, viewing stats</text>
+<rect x="254" y="404" width="220" height="58" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+<rect x="254" y="416" width="3" height="34" rx="1.5" fill="#1a7f37"/>
+<text x="270" y="427" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#1f2328" font-weight="600">Actual Budget</text>
+<text x="270" y="445" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" fill="#656d76">household budget, OpenID sign-in</text>
+<rect x="485" y="404" width="220" height="58" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+<rect x="485" y="416" width="3" height="34" rx="1.5" fill="#1a7f37"/>
+<text x="501" y="427" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#1f2328" font-weight="600">Homepage</text>
+<text x="501" y="445" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" fill="#656d76">one dashboard for everything</text>
+<rect x="716" y="404" width="220" height="58" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+<rect x="716" y="416" width="3" height="34" rx="1.5" fill="#1a7f37"/>
+<text x="732" y="427" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#1f2328" font-weight="600">Uptime Kuma</text>
+<text x="732" y="445" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" fill="#656d76">uptime checks + outside heartbeat</text>
+<rect x="24" y="472" width="297" height="58" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+<rect x="24" y="484" width="3" height="34" rx="1.5" fill="#1a7f37"/>
+<text x="40" y="495" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#1f2328" font-weight="600">Renovate</text>
+<text x="40" y="513" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" fill="#656d76">a pull request for every new image</text>
+<rect x="331" y="472" width="297" height="58" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+<rect x="331" y="484" width="3" height="34" rx="1.5" fill="#1a7f37"/>
+<text x="347" y="495" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#1f2328" font-weight="600">Forgejo runner</text>
+<text x="347" y="513" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" fill="#656d76">CI builds with rootless BuildKit</text>
+<rect x="639" y="472" width="297" height="58" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+<rect x="639" y="484" width="3" height="34" rx="1.5" fill="#1a7f37"/>
+<text x="655" y="495" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#1f2328" font-weight="600">Intel GPU plugin</text>
+<text x="655" y="513" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" fill="#656d76">offers each node&#x27;s iGPU to pods</text>
+<text x="24" y="562" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#656d76" font-weight="600" letter-spacing="1.4">MY PROJECTS</text>
+<text x="936" y="562" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" fill="#656d76" text-anchor="end">built here, public on GitHub</text>
+<rect x="24" y="574" width="297" height="58" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+<rect x="24" y="586" width="3" height="34" rx="1.5" fill="#8250df"/>
+<text x="40" y="597" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#1f2328" font-weight="600">temupuffer</text>
+<text x="40" y="615" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" fill="#656d76">an object-storage search database</text>
+<rect x="331" y="574" width="297" height="58" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+<rect x="331" y="586" width="3" height="34" rx="1.5" fill="#8250df"/>
+<text x="347" y="597" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#1f2328" font-weight="600">temupuffer-search</text>
+<text x="347" y="615" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" fill="#656d76">500k arXiv papers on top of it</text>
+<rect x="639" y="574" width="297" height="58" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+<rect x="639" y="586" width="3" height="34" rx="1.5" fill="#8250df"/>
+<text x="655" y="597" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#1f2328" font-weight="600">Napkin Math UI</text>
+<text x="655" y="615" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" fill="#656d76">latency + cost calculator</text>
+<text x="24" y="664" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#656d76" font-weight="600" letter-spacing="1.4">STORAGE</text>
+<text x="936" y="664" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" fill="#656d76" text-anchor="end">pods are disposable; data lives here</text>
+<rect x="24" y="676" width="297" height="58" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+<rect x="24" y="688" width="3" height="34" rx="1.5" fill="#9a6700"/>
+<text x="40" y="699" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#1f2328" font-weight="600">Longhorn</text>
+<text x="40" y="717" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" fill="#656d76">node disks, replicated across nodes</text>
+<rect x="331" y="676" width="297" height="58" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+<rect x="331" y="688" width="3" height="34" rx="1.5" fill="#9a6700"/>
+<text x="347" y="699" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#1f2328" font-weight="600">NFS from the NAS</text>
+<text x="347" y="717" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" fill="#656d76">photo objects and the media library</text>
+<rect x="639" y="676" width="297" height="58" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+<rect x="639" y="688" width="3" height="34" rx="1.5" fill="#9a6700"/>
+<text x="655" y="699" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#1f2328" font-weight="600">Backups</text>
+<text x="655" y="717" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" fill="#656d76">volumes nightly · VMs · ZFS replication</text>
+</svg>
